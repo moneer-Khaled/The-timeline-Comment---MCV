@@ -7,10 +7,6 @@ const CommentSchema = new Schema({
         required: true,
         minlength: [25, "Comment should be at least 25 characters"]
     },
-    // PostId:{
-    //     type:mongoose.Types.ObjectId,
-    //     ref:'Post'
-    // }
     
     
 },{timestamps:true})
